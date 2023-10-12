@@ -1,35 +1,35 @@
 # 第四回講義  
 ## 作業証跡  
-　　
+
 VPC作成  
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/01.vpc%E4%BD%9C%E6%88%901.png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/02.vpc%E4%BD%9C%E6%88%902.png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/03.vpc%E4%BD%9C%E6%88%90(%E3%82%B5%E3%83%95%E3%82%99%E3%83%8D%E3%83%83%E3%83%88).png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/04.vpc%E4%BD%9C%E6%88%90(%E3%83%AB%E3%83%BC%E3%83%88%E3%83%86%E3%83%BC%E3%83%95%E3%82%99%E3%83%AB).png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/05.vpc%E4%BD%9C%E6%88%90(%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%BC%E3%83%8D%E3%83%83%E3%83%88%E3%82%B1%E3%82%99%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A4).png
-!https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/06.vpc%E4%BD%9C%E6%88%90(%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFACL).png
+![01.vpc作成1](01.vpc作成1.png)
+![02.vpc作成2](02.vpc作成2.png)
+![03.vpc作成(サブネット)](03.vpc作成(サブネット).png)
+![04.vpc作成(ルートテーブル)](04.vpc作成(ルートテーブル).png)
+![05.vpc作成(インターネットゲートウェイ)](05.vpc作成(インターネットゲートウェイ).png)
+![06.vpc作成(ネットワークACL)](06.vpc作成(ネットワークACL).png)
   
   
 EC2インスタンス作成  
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/07.ec2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E4%BD%9C%E6%88%90.png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/08.ec2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E4%BD%9C%E6%88%90(%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%E8%A8%AD%E5%AE%9A).png
-  
+![07.ec2インスタンス作成](07.ec2インスタンス作成.png)
+![08.ec2インスタンス作成(セキュリティグループ設定)](08.ec2インスタンス作成(セキュリティグループ設定).png)
+
   
 RDS(DBインスタンス)作成  
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/08.ec2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E4%BD%9C%E6%88%90(%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%E8%A8%AD%E5%AE%9A).png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/08.ec2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E4%BD%9C%E6%88%90(%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%E8%A8%AD%E5%AE%9A).png
+![09.DBインスタンス作成1](09.DBインスタンス作成1.png)
+![10.DBインスタンス作成2](10.DBインスタンス作成2.png)
   
   
 ローカルからEC2インスタンスへのSSH接続  
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/11.%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E3%81%8B%E3%82%89EC2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%ABssh%E6%8E%A5%E7%B6%9A.png
+![11.ローカルからEC2インスタンスにssh接続](11.ローカルからEC2インスタンスにssh接続.png)
   
   
 EC2インスタンスにmysqlクライアントをインストール  
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/12.EC2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%81%ABmysql%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB1.png
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/13.EC2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%ABmysql%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB2.png
+![12.EC2インスタンにmysqlクライアントをインストール1](12.EC2インスタンにmysqlクライアントをインストール1.png)
+![13.EC2インスタンスにmysqlクライアントをインストール2](13.EC2インスタンスにmysqlクライアントをインストール2.png)
   
   
 EC2インスタンスからRDSへの接続確認  
-https://github.com/RaiseTech-tokisugahashi/RaiseTech/blob/lecture04/14.EC2%E3%82%A4%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%B3%E3%82%B9%E3%81%8B%E3%82%89RDS%E3%81%B8%E3%81%AE%E6%8E%A5%E7%B6%9A%E7%A2%BA%E8%AA%8D.png
+![14.EC2インスタンスからRDSへの接続確認](14.EC2インスタンスからRDSへの接続確認.png)
   
 
